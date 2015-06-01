@@ -1,0 +1,45 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700);
+
+body {
+  font-family: 'Roboto', 'Helvetica Neue';
+  font-weight: 400;
+  background: silver;
+}
+
+.Grid-cell img {
+  display: block;
+  width: 100%;
+}
+
+.Grid {
+  display: flex;
+  flex-wrap: wrap;
+  background: white;
+}
+.Grid--centered {
+  max-width: 1040px;
+  margin: 0 auto;
+}
+
+.Grid-cell {
+  flex: 1;
+}
+.Grid-cell--autoSize {
+  flex: auto;
+}
+
+.Cell-content {
+  padding: 0 1em;
+}
+.Cell-header {
+  background: red;
+}
+.Cell-footer {
+  padding: 1em;
+  background: black;
+  color: white;
+}
+
+.Grid--1of2 > .Grid-cell {
+  flex: 0 0 50%;
+}
