@@ -43,3 +43,6 @@ body {
 .Grid--1of2 > .Grid-cell {
   flex: 0 0 50%;
 }
+.Grid--1of4 > .Grid-cell {
+  flex: 0 0 25%;
+}
